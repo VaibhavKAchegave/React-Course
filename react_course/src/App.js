@@ -1,22 +1,11 @@
-import './App.css';
 
 function App() {
+  let name="vaibhav";
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          React Course
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div>
+    <h1>Hello world</h1>
+    <p>{name}</p>
+   </div>
   );
 }
 
